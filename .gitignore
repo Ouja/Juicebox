@@ -15,15 +15,27 @@
 /.vscode
 /.zed
 /auth.json
-/node_modules
+# Installed dependencies (keep manifests and lockfiles tracked).
+/node_modules/
+/vendor/
+/composer.phar
+# Generated frontend output and local package caches.
+/.npm/
+/.vite/
 /public/build
 /public/fonts-manifest.dev.json
 /public/hot
 /public/storage
 /storage/*.key
 /storage/pail
-/vendor
-/tmp
+# Temporary files and generated test reports.
+/tmp/
+/temp/
+*.tmp
+/coverage/
+/build/coverage/
+/coverage.xml
+/junit.xml
 _ide_helper.php
 Homestead.json
 Homestead.yaml
